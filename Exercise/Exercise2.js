@@ -16,6 +16,33 @@ function question2() {
 }
 exports.question2 = question2;
 function question3() {
+    var food = [
+        {
+            food: "1. Chả giò nón lá"
+        },
+        {
+            food: "1. Bò lúc lắc hạt điều"
+        },
+        {
+            food: "1. Cá tai tượng chiên xù"
+        },
+        {
+            food: "1. Cải thìa sốt thịt cua"
+        },
+        {
+            food: "1. Cơm chiên cá mặn"
+        },
+        {
+            food: "1. Lẩu hải sản"
+        },
+        {
+            food: "1. Rau câu"
+        }
+    ];
+    food.map(function (food, key) {
+        var result = "\n        <div>\n            <h1>".concat(food.food, "</h1>\n        </div>\n        ");
+        console.log(result);
+    });
 }
 exports.question3 = question3;
 exports["default"] = { question1: question1, question2: question2, question3: question3 };

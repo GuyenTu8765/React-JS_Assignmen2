@@ -10,10 +10,10 @@ import Exercise5_CallBack from "./Exercise/Exercise5_CallBack";
 
 // Exercise2.question1();
 // Exercise2.question2();
-// Exercise2.question3();
+Exercise2.question3();
 
-Exercise3.question1();
-Exercise3.question2();
+// Exercise3.question1();
+// Exercise3.question2();
 // Exercise3.question3();
 
 // Exercise4.question1();
