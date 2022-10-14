@@ -1,0 +1,17 @@
+"use strict";
+exports.__esModule = true;
+var Exercise3_1 = require("./Exercise/Exercise3");
+// Exercise1.question1();
+// Exercise1.question2();
+// Exercise2.question1();
+// Exercise2.question2();
+// Exercise2.question3();
+Exercise3_1["default"].question1();
+Exercise3_1["default"].question2();
+// Exercise3.question3();
+// Exercise4.question1();
+// Exercise4.question2();
+// Exercise5.question1();
+// Exercise5.question2();
+// Exercise5.question3();
+// Exercise5_CallBack.question1();
