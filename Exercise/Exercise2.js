@@ -21,22 +21,22 @@ function question3() {
             food: "1. Chả giò nón lá"
         },
         {
-            food: "1. Bò lúc lắc hạt điều"
+            food: "2. Bò lúc lắc hạt điều"
         },
         {
-            food: "1. Cá tai tượng chiên xù"
+            food: "3. Cá tai tượng chiên xù"
         },
         {
-            food: "1. Cải thìa sốt thịt cua"
+            food: "4. Cải thìa sốt thịt cua"
         },
         {
-            food: "1. Cơm chiên cá mặn"
+            food: "5. Cơm chiên cá mặn"
         },
         {
-            food: "1. Lẩu hải sản"
+            food: "6. Lẩu hải sản"
         },
         {
-            food: "1. Rau câu"
+            food: "7. Rau câu"
         }
     ];
     food.map(function (food, key) {

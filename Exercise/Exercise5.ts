@@ -10,10 +10,20 @@ export function question1() {
 export function question2() {
 
     console.log("Que2----------------------------");
-    var multiply = (a, b: number = 1, c: number = 1) => console.log(a * b * c);
-    multiply(5, 3, 2);
-}
+    var multiply = (...numParam) => {
+        var result = 1;
+        numParam.forEach(e => {
+            result * -e;
+        });
+        // numParam.map(function (item, key) {
+        //     result * item;
+        // })
+        console.log(result);
+    }
 
+    multiply(5 );
+
+}
 export function question3() {
 
     console.log("Que3----------------------------");
@@ -31,4 +41,4 @@ export function question3() {
 
 
 
-export default { question1, question2, question3}
+export default { question1, question2, question3 }

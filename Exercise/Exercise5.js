@@ -12,12 +12,21 @@ function question1() {
 exports.question1 = question1;
 function question2() {
     console.log("Que2----------------------------");
-    var multiply = function (a, b, c) {
-        if (b === void 0) { b = 1; }
-        if (c === void 0) { c = 1; }
-        return console.log(a * b * c);
+    var multiply = function () {
+        var numParam = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            numParam[_i] = arguments[_i];
+        }
+        var result = 1;
+        numParam.forEach(function (e) {
+            result * -e;
+        });
+        // numParam.map(function (item, key) {
+        //     result * item;
+        // })
+        console.log(result);
     };
-    multiply(5, 3, 2);
+    multiply(5);
 }
 exports.question2 = question2;
 function question3() {

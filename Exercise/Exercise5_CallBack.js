@@ -31,6 +31,3 @@ function question1() {
 }
 exports.question1 = question1;
 exports["default"] = { question1: question1 };
-function callAPICreateUser(arg0, arg1) {
-    throw new Error("Function not implemented.");
-}
